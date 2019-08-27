@@ -135,6 +135,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  actionview (>= 5.2.0)
+  activejob (>= 5.2.0)
+  activestorage (>= 5.2.0)
   bootsnap (>= 1.1.0)
   byebug
   foreman (~> 0.82.0)
@@ -142,6 +145,7 @@ DEPENDENCIES
   pg (~> 0.15)
   puma
   rails (= 5.2.0)
+  railties (>= 5.2.0)
   spring
   spring-watcher-listen (~> 2.0.0)
   tzinfo-data

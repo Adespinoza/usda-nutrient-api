@@ -9,6 +9,10 @@ gem 'puma'
 gem 'pg', '~> 0.15'
 
 gem 'foreman', '~> 0.82.0'
+gem "railties", ">= 5.2.0"
+gem "actionview", ">= 5.2.0"
+gem "activejob", ">= 5.2.0"
+gem "activestorage", ">= 5.2.0"
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
